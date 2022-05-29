@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Flash Card</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Flash Card</h1>
+    <h2>Digite o conceito que você gostaria de decorar:</h2>
+    <textarea class="inputConceito" placeholder="conceito" cols="40" rows="5"></textarea>
+    <h2>Digite o significado do conceito:</h2>
+    <textarea class="inputSignificado" placeholder="significado" cols="40" rows="5"></textarea>
+    <br>
+    <button type="button" class="criarBtn">CRIAR</button>
+  </div>
+
+  <div class="flashCard">
+    <div class="conceito" style="display: none;"></div>
+    <div class="resposta" style="display: none;"></div>
+    <button type="button" class="novoBtn" style="display: none;">Criar outro flash card</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

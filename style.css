@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  color: #505050;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 3.12rem;
+  color: coral;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  margin: auto;
+  padding: 0.5rem 1rem;
+  background-color: coral;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #505050;
+  transition: 0.5s;
+}
+
+.container {
+  text-align: center;
+}
+
+.container textarea {
+  border-color: #505050;
+  text-align: justify;
+  font-size: 1rem;
+  resize: none;
+  margin-bottom: 1.5rem;
+}
+
+.flashCard {
+  text-align: center;
+}
+
+.flashCard .conceito, .flashCard .resposta {
+  margin-bottom: 1.5rem;
+}
+
+.flashCard .conceito{
+  background-color: coral;
+  color:antiquewhite;
+  padding: 2.5rem 4rem;
+  text-align: center;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.flashCard .resposta {
+  background-color: #505050;
+  color: antiquewhite;
+  padding: 2.5rem 4rem;
+  text-align: center;
+  border-radius: 7px;
+  cursor: pointer;
+}
