@@ -5,7 +5,7 @@ It consists in a card where you write the name of some concept/subject that you 
 
 
 ## Website preview
-![chrome_Dxgp1xCC32](https://user-images.githubusercontent.com/73076957/170887370-c3fe186d-5c99-484f-ad28-e7503d844f35.gif)
+![chrome_eJFacDQTbM](https://user-images.githubusercontent.com/73076957/170887446-9b2c1029-27a0-43c3-a907-d3af3ec64a1b.gif)
 
 ## website access
 https://monicaiacy.github.io/Flash-card/
